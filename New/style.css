@@ -7,7 +7,7 @@
 }
 
 body{
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./pictures/background.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(./pictures/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,7 +29,6 @@ header{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 30rem;
     width: 24rem;
     text-align: center;
@@ -37,7 +36,7 @@ header{
     border: 3px solid midnightblue;
     border-radius: 20px;
     margin-top: 50px;
-    padding: 20px 20px;
+    padding: 20px;
     transition: transform 0.2s ease-in;
 }
 
@@ -61,5 +60,5 @@ footer{
     height: 80px;
     padding-top: 20px;
     text-align: center;
-    margin-top: 50vh;
+    margin-top: 12vh;
 }
